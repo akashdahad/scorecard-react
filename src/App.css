@@ -114,6 +114,12 @@
   background-color: #0f0c29;
 }
 
+.btn1:hover {
+  opacity: 0.85;
+}
+.btn1:active{
+  background-color: #0f0c29;
+}
 
 
 .row{
@@ -144,5 +150,10 @@
 
 
 .back{
-  
+
+  font-size: 14px;
+  padding: 10px;
+  color: #302b63;
+  cursor: pointer;
+  text-align: center;
 }

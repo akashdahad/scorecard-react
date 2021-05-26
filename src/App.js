@@ -40,7 +40,7 @@ const App = () => {
               </div>
             </div>
             <button className="btn1" onClick={() => setCurrentPage(2)}> Save Game </button>
-            <div className="back"> Back </div>
+            <div className="back" onClick={() => setCurrentPage(1)}> Back </div>
         </>
       }
          </div>
